@@ -27,3 +27,18 @@ let pessoa2 = new Conta("Julia", 3000);
 pessoa1.tranferir(1000, pessoa2);//executando a transferencia para outra conta
 
 console.log(`${pessoa2.titular} esta com saldo atual de R$${pessoa2.saldo}`);
+
+
+//Crie uma classe Cachorro com um método latir() que imprime "Au au!" no console.
+class Cachorro{
+   nome:string;
+   constructor(n:string){
+   this.nome=n;
+ };
+ latir(){
+    console.log('Cachorro esta latindo');
+   console.log('Au au');
+   };
+ };
+   let cachorro=new Cachorro('tobias');
+   cachorro.latir();
