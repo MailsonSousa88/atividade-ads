@@ -36,27 +36,9 @@ class Cachorro{
    this.nome=n;
  };
  latir(){
+    console.log('Cachorro esta latindo');
    console.log('Au au');
    };
  };
    let cachorro=new Cachorro('tobias');
    cachorro.latir();
-
-    //          __
-    //  w  c(..)o   (
-    //   \__(-)    __)
-    //       /\   (
-    //      /(_)___)
-    //      w /|
-    //       | \
-    //      m  m
-
-   class Macaco{
-    nome: string;
-    constructor(nome:string){
-        this.nome = nome;
-    }
-    fala(): void {
-        console.log('Ah Ah Ah')
-    }
-   }
