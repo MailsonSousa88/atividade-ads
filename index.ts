@@ -42,3 +42,22 @@ class Cachorro{
  };
    let cachorro=new Cachorro('tobias');
    cachorro.latir();
+
+  
+   //Crie uma classe Musica com atributos titulo, artista e duracao. Adicione um método tocar() que imprime “Tocando TITULO de ARTISTA”. 
+class Musica{ 
+  titulo : string; 
+  artista : string; 
+  duracao : number;
+
+  constructor (titulo : string, artista : string,duracao : number){ 
+  this.titulo = titulo;
+  this.artista = artista;
+  this.duracao = duracao; 
+  }
+   tocar():void {
+     console.log("Tocando " + this.titulo + " de "+ this.artista)
+     } 
+  }
+       let musica = new Musica ("Magica","Calcinha preta",2.30) 
+       musica.tocar();
